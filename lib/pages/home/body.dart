@@ -10,9 +10,12 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
+  late String userName;
+  late String accountBalance;
   @override
   void initState() {
-    //user = widget.user;
+    accountBalance = widget.accountBalance;
+    userName = widget.userName;
     super.initState();
   }
 
@@ -50,7 +53,7 @@ class HomePageState extends State<HomePage> {
                   ),
                   const TextSpan(text: ' '),
                   TextSpan(
-                    text: '${widget.userName}'.toUpperCase(),
+                    text: userName.toUpperCase(),
                     style: const TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
