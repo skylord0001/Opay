@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:opay/database/variable.dart';
 import 'package:opay/widgets/container.dart';
 
-class HomeBalanceWidget extends StatefulWidget {
-  const HomeBalanceWidget({
+class BalanceWidget extends StatefulWidget {
+  const BalanceWidget({
     super.key,
     required userName,
     required this.accountBalance,
@@ -12,10 +12,10 @@ class HomeBalanceWidget extends StatefulWidget {
   final String accountBalance;
 
   @override
-  State<HomeBalanceWidget> createState() => _HomeBalanceWidgetState();
+  State<BalanceWidget> createState() => _BalanceWidgetState();
 }
 
-class _HomeBalanceWidgetState extends State<HomeBalanceWidget> {
+class _BalanceWidgetState extends State<BalanceWidget> {
   @override
   void initState() {
     super.initState();
@@ -40,13 +40,21 @@ class _HomeBalanceWidgetState extends State<HomeBalanceWidget> {
       stream: _accountBalance,
       builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
         return ConatinerWidget(
-          padding: 14.0,
+          paddingIntSides: 14.0,
+          paddingExtSides: 14.0,
+          paddingIntTopDown: 14.0,
           color: mainColor,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               const Row(
                 children: [
+                  Icon(
+                    Icons.verified_user,
+                    size: 15,
+                    color: Colors.white,
+                  ),
+                  SizedBox(width: 2),
                   Text(
                     'Available Balance',
                     style: TextStyle(fontSize: 12, color: Colors.white),
@@ -58,10 +66,10 @@ class _HomeBalanceWidgetState extends State<HomeBalanceWidget> {
                     'Transaction History',
                     style: TextStyle(fontSize: 12, color: Colors.white),
                   ),
-                  SizedBox(width: 8),
-                  Text(
-                    '>',
-                    style: TextStyle(fontSize: 16, color: Colors.white),
+                  Icon(
+                    Icons.chevron_right,
+                    size: 18,
+                    color: Colors.white,
                   ),
                 ],
               ),
@@ -76,7 +84,7 @@ class _HomeBalanceWidgetState extends State<HomeBalanceWidget> {
                             text: '₦',
                             style: TextStyle(
                               fontSize: 16,
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w500,
                               color: Colors.white,
                             ),
                           ),
@@ -86,7 +94,7 @@ class _HomeBalanceWidgetState extends State<HomeBalanceWidget> {
                                 : widget.accountBalance,
                             style: const TextStyle(
                               fontSize: 22,
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w500,
                               color: Colors.white,
                             ),
                           ),
@@ -102,12 +110,12 @@ class _HomeBalanceWidgetState extends State<HomeBalanceWidget> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(20),
                     ),
-                    child: const Text(
+                    child: Text(
                       '+ Add Money',
                       style: TextStyle(
                         fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.green,
+                        fontWeight: FontWeight.w500,
+                        color: mainColor,
                       ),
                     ),
                   ),

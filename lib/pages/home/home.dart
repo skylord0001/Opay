@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:opay/pages/home/widgets/action.dart';
+import 'package:opay/pages/home/widgets/actions.dart';
+import 'package:opay/pages/home/widgets/ads.dart';
+import 'package:opay/pages/home/widgets/others_recommend.dart';
+import 'package:opay/pages/home/widgets/recommend.dart';
 import 'package:opay/pages/home/widgets/balance.dart';
 import 'package:opay/pages/home/widgets/header.dart';
 
@@ -24,22 +29,30 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(0.0),
-        child: Container(
-          color: const Color.fromARGB(255, 240, 240, 240),
-        ),
+        preferredSize: const Size.fromHeight(56.0),
+        child: HeaderWidget(userName: widget.userName),
       ),
       backgroundColor: const Color.fromARGB(255, 240, 240, 240),
       body: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
         child: Column(
           children: <Widget>[
-            HomeHeaderWidget(userName: widget.userName),
-            const SizedBox(height: 15),
-            HomeBalanceWidget(
+            const SizedBox(height: 20),
+            BalanceWidget(
               accountBalance: widget.accountBalance,
               userName: widget.userName,
             ),
-            const SizedBox(height: 15),
+            const SizedBox(height: 10),
+            const ActionWidget(),
+            const SizedBox(height: 10),
+            const RecommendWidget(),
+            const SizedBox(height: 10),
+            const ActionsWidget(),
+            const SizedBox(height: 10),
+            const AdsWidget(),
+            const SizedBox(height: 10),
+            const OtherRecommend(),
+            const SizedBox(height: 10),
           ],
         ),
       ),

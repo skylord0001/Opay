@@ -1,0 +1,182 @@
+{
+  "message":"success",
+  "code":200,
+  "data":{
+    "banner_data":[
+
+    ],
+    "module_data":{
+      "me_list":[
+        {
+          "id":32,
+          "title":"Total Assets",
+          "description":"View your total assets and earnings",
+          "action":"otravel://assetsinfo/entrance",
+          "rank":28,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/5e9ea512e121cf4721922b721ee4f33d.png",
+          "group_name":"Section 7",
+          "group_index":7
+        },
+        {
+          "id":31,
+          "title":"Transaction History",
+          "description":"View details of transactions",
+          "action":"otravel://balance/entrance",
+          "rank":27,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/e85fcfbd6545ec6f71d415bfc2ac1515.png",
+          "group_name":"Section 7",
+          "group_index":7
+        },
+        {
+          "id":33,
+          "title":"Account Limits",
+          "description":"View your transaction limits",
+          "action":"otravel://account/entrance/detail",
+          "rank":26,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/fd26196d3f9a5c951898633fd5c81137.png",
+          "group_name":"Section 7",
+          "group_index":7
+        },
+        {
+          "id":34,
+          "title":"Bank Card/Account",
+          "description":"Add payment option",
+          "action":"otravel://bind_card/entrance",
+          "rank":25,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/0d7515c0cc03ef017fa19192b930adfe.png",
+          "group_name":"Section 7",
+          "group_index":7
+        },
+        {
+          "id":1040,
+          "title":"Pay Me",
+          "description":"Receive payment for your business",
+          "action":"otravel://sme/entrance",
+          "rank":24,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/e67d728de46ed171bc1e113bd926a6d2.png",
+          "group_name":"Section 7",
+          "group_index":7
+        },
+        {
+          "id":54,
+          "title":"Scheduled Payments",
+          "description":"Schedule your recurring payments on a weekly or monthly basis",
+          "action":"otravel://regular/payment/list?scheduledStatus=ON",
+          "rank":23,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/65fc2c226c59aeecf309dde15d4c2dcb.png",
+          "group_name":"Section 6",
+          "group_index":6
+        },
+        {
+          "id":1038,
+          "title":"OPay USSD",
+          "description":"Discover how to access OPay services via our USSD channel",
+          "action":"https://opay.ng/opay-ussd-short",
+          "rank":20,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/f6da2e059e39f290467805db3ea86d3d.png",
+          "group_name":"Section 6",
+          "group_index":6
+        },
+        {
+          "id":38,
+          "title":"Customer Service",
+          "description":"Seek support from us",
+          "action":"https://opay.ng/feedback-home",
+          "rank":19,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/1085b23590e255f2ab81fa5b09fe3d6b.png",
+          "group_name":"Section 6",
+          "group_index":6
+        },
+        {
+          "id":43,
+          "title":"Refer Friends",
+          "description":"Earn up to ₦800 per referral",
+          "action":"https://mkt.opayweb.com/user/invite?sceneType=general&",
+          "rank":17,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/00cee7fd0b0e465e661baedcb5d0d52d.png",
+          "group_name":"Section 6",
+          "group_index":6
+        },
+        {
+          "id":51,
+          "title":"Report Scam",
+          "description":"Report a fraud",
+          "action":"otravel://report_scam/entrance",
+          "rank":15,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/275b0e40b5e7f807210b1d16593fc512.png",
+          "group_name":"Section 6",
+          "group_index":6
+        },
+        {
+          "id":45,
+          "title":"Rate Us",
+          "description":"Rate our app",
+          "action":"https://docs.google.com/forms/d/e/1FAIpQLSdkvKzM3E8agCLX3vAnZYn_Jsa_qSlqQbOc06VTpCLi7tYccg/viewform?usp=sf_link",
+          "rank":14,
+          "isNew":false,
+          "moduleId":39,
+          "adCrowdRuleId":0,
+          "externalDatasourceRuleId":null,
+          "icon_url":"https://opayweb.com/image/image/b1583ee4c5b95e0b8fa22e6f4e3c534c.png",
+          "group_name":"Section 6",
+          "group_index":6
+        }
+      ]
+    },
+    "img_data":[
+
+    ],
+    "float_ad_data":{
+      "labelIds":null,
+      "adpScale":0,
+      "id":177,
+      "show_count":null,
+      "img_url":"https://opayweb.com/image/image/e86f4679f0c2323382937e683b24b3ee.png",
+      "action":"otravel://mailbox/entrance?isCheckKycAndEmail=1",
+      "business_id":null,
+      "extra_data":"",
+      "close_icon_position":null,
+      "action_title":null
+    }
+  }
+}

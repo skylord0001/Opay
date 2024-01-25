@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:opay/database/variable.dart';
 import 'package:opay/pages/home/home.dart';
 import 'package:opay/pages/signup/signup.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -45,16 +46,18 @@ class _MyAppState extends State<MyApp> {
               elevation: 0,
               unselectedItemColor: Colors.grey,
               showUnselectedLabels: true,
-              selectedItemColor: Colors.green,
+              selectedItemColor: mainColor,
               items: const [
-                BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.card_giftcard), label: 'Rewards'),
+                    icon: Icon(Icons.mood_rounded), label: 'Home'),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.account_balance), label: 'Finance'),
+                    icon: Icon(Icons.diamond), label: 'Rewards'),
+                BottomNavigationBarItem(
+                    icon: Icon(Icons.show_chart), label: 'Finance'),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.credit_card), label: 'Cards'),
-                BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Me'),
+                BottomNavigationBarItem(
+                    icon: Icon(Icons.account_circle_outlined), label: 'Me'),
               ],
             ),
           );
