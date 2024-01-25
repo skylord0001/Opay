@@ -13,17 +13,19 @@ Just trying to create a clone of this with `django` as `backend` bcus i am inspi
 
 ### Not interested again reason:
 
-@talented_dev  not interested again 😂 jhare this app looks like opensource but not tell to the world, very vulnerable if bad guys have their time they will scam people freely that will look too legal, mostly opay.ng is fucking vulnerable like there're some other service you can use them as middle man self.
+- @talented_dev  not interested again 😂 jhare this app looks like opensource but not tell to the world, very vulnerable if bad guys have their time they will scam people freely that will look too legal, mostly opay.ng is fucking vulnerable like there're some other service you can use them as middle man self.
 
-Not interested reasons:
-1 time(limited)
-2 too much pages
-3 soft and wide(i expect hard)
-4 webapp(i am using flutter)
-5 anyone can do it (its easy)
-6 too much API
-7 version control
-8 private(didn't tell unless u go in) Open Source(bcus everything has  API and no ONLY its ANYONE)
+**Not interested reasons:**
+1. time(limited)
+2. too much pages
+3. soft and wide(i expect hard)
+4. webapp(i am using flutter)
+5. anyone can do it (its easy)
+6. too much API
+7. version control
+8. private(didn't tell unless u go in) Open Source(bcus everything has API and no ONLY its ANYONE)
+
+
 
 
 In below screenshot you will find my little search about anyone did Opay clone before then why not interested anymore and some other pains
