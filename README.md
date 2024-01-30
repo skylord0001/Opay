@@ -8,8 +8,11 @@ connect your android device and run `flutter run`
 
 Just trying to create a clone of this with `django` as `backend` bcus i am inspired with the Opay app after the first home page i see that their icons and assets are custom for this i can't view in their website then i decide to reverse one of their app going through the apps i am discourage and decided to stop this project i have discussed this in [Black Stack Hub Whatsapp Group](https://blackstackhub.com) i have only spend `two days` on this project and at night of the second day i make research and got discourage, below are few screenshots from the group chat
 
+| Clone | Original |
+| --- | --- |
+| ![Clone](readme/WhatsApp%20Image%202024-01-25%20at%205.53.59%20PM.jpeg) | ![Original](readme/WhatsApp%20Image%202024-01-24%20at%201.14.25%20AM%20(4).jpeg?raw=true) |
 
-![screenshot](readme/WhatsApp%20Image%202024-01-25%20at%205.53.59%20PM.jpeg?raw=true)
+
 
 ### Not interested again reason:
 
