@@ -29,11 +29,6 @@ Just trying to create a clone of this with `django` as `backend` bcus i am inspi
 
 
 In below screenshot you will find my little search about anyone did Opay clone before then why not interested anymore and some other pains
-![screenshot](readme/Screenshot%20(1143).png?raw=true)
-![screenshot](readme/Screenshot%20(1144).png?raw=true)
-![screenshot](readme/Screenshot%20(1145).png?raw=true)
-![screenshot](readme/Screenshot%20(1146).png?raw=true)
-![screenshot](readme/Screenshot%20(1149).png?raw=true)
 ![screenshot](readme/Screenshot%20(1150).png?raw=true)
 ![screenshot](readme/Screenshot%20(1151).png?raw=true)
 ![screenshot](readme/Screenshot%20(1152).png?raw=true)
@@ -42,9 +37,3 @@ In below screenshot you will find my little search about anyone did Opay clone b
 ![screenshot](readme/Screenshot%20(1155).png?raw=true)
 ![screenshot](readme/Screenshot%20(1156).png?raw=true)
 ![screenshot](readme/Screenshot%20(1157).png?raw=true)
-![screenshot](readme/Screenshot%20(1158).png?raw=true)
-![screenshot](readme/Screenshot%20(1159).png?raw=true)
-![screenshot](readme/Screenshot%20(1160).png?raw=true)
-![screenshot](readme/Screenshot%20(1161).png?raw=true)
-![screenshot](readme/Screenshot%20(1162).png?raw=true)
-![screenshot](readme/Screenshot%20(1163).png?raw=true)
