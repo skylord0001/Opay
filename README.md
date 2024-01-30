@@ -10,7 +10,7 @@ Just trying to create a clone of this with `django` as `backend` bcus i am inspi
 
 | Clone | Original |
 | --- | --- |
-| ![Clone](readme/WhatsApp%20Image%202024-01-25%20at%205.53.59%20PM.jpeg) | ![Original](readme/WhatsApp%20Image%202024-01-24%20at%201.14.25%20AM%20(4).jpeg?raw=true) |
+| ![Clone](readme/WhatsApp%20Image%202024-01-25%20at%205.53.59%20PM.jpeg) | ![Original](readme/WhatsApp%20Image%202024-01-24%20at%201.49.13%20PM%20(1).jpeg?raw=true) |
 
 
 
