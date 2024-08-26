@@ -1,12 +1,6 @@
 # opay - Flutter 
 
-A new Flutter project.
-
-## Getting Started
-
-connect your android device and run `flutter run`
-
-Just trying to create a clone of this with `django` as `backend` bcus i am inspired with the Opay app after the first home page i see that their icons and assets are custom for this i can't view in their website then i decide to reverse one of their app going through the apps i am discourage and decided to stop this project i have discussed this in [Black Stack Hub Whatsapp Group](https://blackstackhub.com) i have only spend `two days` on this project and at night of the second day i make research and got discourage, below are few screenshots from the group chat
+Just attempting to clone this project using `Django` for the `backend` because I was inspired by the Opay app. After examining their homepage, I noticed that their icons and assets are custom and not visible on their website. I decided to reverse-engineer their app, but after going through it, I felt discouraged and decided to abandon the project. I discussed this in the [Black Stack Hub Whatsapp Group](https://blackstackhub.com). I spent only two days on this project, and by the night of the second day, my research led to discouragement. Below are a few screenshots from the group chat.
 
 | Clone | Original |
 | --- | --- |
@@ -15,8 +9,6 @@ Just trying to create a clone of this with `django` as `backend` bcus i am inspi
 
 
 ### Not interested again reason:
-
-- @talented_dev  not interested again 😂 jhare this app looks like opensource but not tell to the world, very vulnerable if bad guys have their time they will scam people freely that will look too legal, mostly opay.ng is fucking vulnerable like there're some other service you can use them as middle man self.
 
 **Not interested reasons:**
 1. time(limited)
